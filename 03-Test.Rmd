@@ -1,3 +1,8 @@
-# Literature
+# Test
 
-Here is a review of existing methods.
+This is a test of a just amazing great plot, created in R. Awesome! 
+```{r chunk-label, echo=TRUE, fig.cap='test'}
+a<-c(1:100)
+b<-a^2
+plot(b~a)
+```
