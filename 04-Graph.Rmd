@@ -1,0 +1,3 @@
+# Image
+
+![Knit picture](images/knit-image.png)
