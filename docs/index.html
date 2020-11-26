@@ -21,10 +21,10 @@
   <meta name="twitter:description" content="This is an example of a bookdown book. The output format for this example is bookdown::gitbook." />
   
 
-<meta name="author" content="MB, MS, FP" />
+<meta name="author" content="MB, FP, CR" />
 
 
-<meta name="date" content="2020-11-06" />
+<meta name="date" content="2020-11-26" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -120,7 +120,6 @@ code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
-<link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 
 <body>
@@ -133,15 +132,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="./">An Awesome book. Very great. So fantastic. </a></li>
-
-<li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Prerequisites</a></li>
-<li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Introduction</a></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Intro</a></li>
+<li class="chapter" data-level="2" data-path="index.html"><a href="index.html#intro"><i class="fa fa-check"></i><b>2</b> Introduction</a></li>
 <li class="chapter" data-level="3" data-path="literature.html"><a href="literature.html"><i class="fa fa-check"></i><b>3</b> Literature</a></li>
-<li class="divider"></li>
-<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-
+<li class="chapter" data-level="4" data-path="test.html"><a href="test.html"><i class="fa fa-check"></i><b>4</b> Test</a><ul>
+<li class="chapter" data-level="4.1" data-path="test.html"><a href="test.html#sub-chapter-1"><i class="fa fa-check"></i><b>4.1</b> Sub-chapter 1</a></li>
+<li class="chapter" data-level="4.2" data-path="test.html"><a href="test.html#sub-chapter-2"><i class="fa fa-check"></i><b>4.2</b> Sub-chapter 2</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="image.html"><a href="image.html"><i class="fa fa-check"></i><b>5</b> Image</a></li>
 </ul>
 
       </nav>
@@ -161,18 +159,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
             <section class="normal" id="section-">
 <div id="header">
 <h1 class="title">An Amazing Book. Just Great. Fantastic</h1>
-<p class="author"><em>MB, MS, FP</em></p>
-<p class="date"><em>2020-11-06</em></p>
+<p class="author"><em>MB, FP, CR</em></p>
+<p class="date"><em>2020-11-26</em></p>
 </div>
-<div id="prerequisites" class="section level1">
-<h1><span class="header-section-number">Chapter 1</span> Prerequisites</h1>
-<p>This is a <em>sample</em> book written in <strong>Markdown</strong>.</p>
-<p>The <strong>bookdown</strong> package can be installed from CRAN or Github:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="index.html#cb1-1"></a><span class="kw">install.packages</span>(<span class="st">&quot;bookdown&quot;</span>)</span>
-<span id="cb1-2"><a href="index.html#cb1-2"></a><span class="co"># or the development version</span></span>
-<span id="cb1-3"><a href="index.html#cb1-3"></a><span class="co"># devtools::install_github(&quot;rstudio/bookdown&quot;)</span></span></code></pre></div>
-<p>Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading <code>#</code>.</p>
-<p>To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <a href="https://yihui.name/tinytex/" class="uri">https://yihui.name/tinytex/</a>.</p>
+<div id="intro" class="section level1">
+<h1><span class="header-section-number">1</span> Intro</h1>
 
 </div>
             </section>
@@ -212,8 +203,8 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/rstudio/bookdown-demo/edit/master/index.Rmd",
-"text": "Edit"
+"link": null,
+"text": null
 },
 "history": {
 "link": null,
@@ -223,7 +214,7 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": ["H4SC-book.pdf", "H4SC-book.epub"],
+"download": null,
 "toc": {
 "collapse": "subsection"
 }
