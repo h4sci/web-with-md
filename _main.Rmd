@@ -1,0 +1,124 @@
+--- 
+title: "An Amazing Book. Just Great. Fantastic"
+author: "MB, FP, CR"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "This is an example of a bookdown book. The output format for this example is bookdown::gitbook."
+---
+--- 
+title: "An Amazing Book. Just Great. Fantastic"
+author: "MB, FP, CR"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "This is an example of a bookdown book. The output format for this example is bookdown::gitbook."
+---
+# Intro
+
+<!--chapter:end:index.Rmd-->
+
+# Introduction {#intro}
+
+You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+
+Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
+
+```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
+par(mar = c(4, 4, .1, .1))
+plot(pressure, type = 'b', pch = 19)
+```
+
+Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
+
+```{r nice-tab, tidy=FALSE}
+knitr::kable(
+  head(iris, 20), caption = 'Here is a nice table!',
+  booktabs = TRUE
+)
+```
+
+You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
+
+<!--chapter:end:01-intro.Rmd-->
+
+# Literature
+
+How to include the references?
+
+<!--chapter:end:02-Diving-In.Rmd-->
+
+# Test
+
+This is a test of a just amazing great plot, created in R. Awesome! 
+```{r chunk-label, echo=TRUE, fig.cap='test'}
+a<-c(1:100)
+b<-a^2
+plot(b~a)
+```
+
+## Sub-chapter 1
+
+You can also embed plots without the R code, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Nice, right?!
+
+
+## Sub-chapter 2
+
+Another sub-chapter
+
+
+<!--chapter:end:03-Test.Rmd-->
+
+# Image
+
+![Knit picture](images/knit-image.png)
+
+<!--chapter:end:04-Graph.Rmd-->
+
+---
+title: "05-Test_Frederic"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+<!--chapter:end:05-Test_Frederic.Rmd-->
+
