@@ -2,7 +2,7 @@ fig:nice-fig
 tab:nice-tab
 preface
 introduction
-frédéric
+Frédéric
 about-me
 my-research
 clément
