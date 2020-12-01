@@ -1,5 +1,5 @@
 --- 
-title: "An Amazing Book. Just Great. Fantastic"
+title: "Welcome to our Page! This is all about our Research."
 author: "MB, FP, CR"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -11,4 +11,8 @@ link-citations: yes
 github-repo: rstudio/bookdown-demo
 description: "This is an example of a bookdown book. The output format for this example is bookdown::gitbook."
 ---
-# Intro
+
+# Preface
+
+Here we would like to present you our latest Research.
+
