@@ -11,6 +11,6 @@ link-citations: yes
 github-repo: rstudio/bookdown-demo
 description: "This is an example of a bookdown book. The output format for this example is bookdown::gitbook."
 ---
-# Preface 
+# Preface {-}
 
 In this book, we will introduce our interesting research.
