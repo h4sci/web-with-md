@@ -1,4 +1,4 @@
-# Frédéric
+# CH01_Frédéric {#Frédéric}
 ## About Me
 
 Hello. I am Frédéric.
