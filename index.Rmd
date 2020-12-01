@@ -5,10 +5,10 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
-bibliography: [book.bib]
+#bibliography: [book.bib]
 biblio-style: apalike
 link-citations: yes
 github-repo: rstudio/bookdown-demo
 description: "This is an example of a bookdown book. The output format for this example is bookdown::gitbook."
 ---
-# Intro
+# Preface 
