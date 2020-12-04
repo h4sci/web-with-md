@@ -8,7 +8,7 @@ Hello, I am Clément, Doctoral researcher and Scientific Assistant at the Center
 Part of my research focuses on the impact of tropical cyclones on the economy. We try to integrate advances from climate studies into the economic growth theory. Figure 1 is an old screenshot of my research. (I do not want to spoil too much of the final results!)
 
 <div align="center">
-<img src="images/clement_old_plot.png">
+<img src="images/clement_old_plot.PNG">
 <div class="caption-half"> Figure 1: Screenshot of my research </div>
 </div>
 
