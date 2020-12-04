@@ -13,7 +13,7 @@
   
   
   <meta property="og:description" content="This is an example of a bookdown book. The output format for this example is bookdown::gitbook." />
-  <meta name="github-repo" content="rstudio/bookdown-demo" />
+  <meta name="github-repo" content="https://github.com/h4sci/web-with-md" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="3 Clément | Welcome to our book! We would like to introduce you to our research." />
@@ -24,15 +24,16 @@
 <meta name="author" content="MB, FP, CR" />
 
 
-<meta name="date" content="2020-12-01" />
+<meta name="date" content="2020-12-04" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="fr-d-ric.html"/>
+<link rel="prev" href="frédéric.html"/>
 <link rel="next" href="michaela.html"/>
+<script src="libs/header-attrs-2.5/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -56,18 +57,17 @@
 
 
 <style type="text/css">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -87,7 +87,7 @@ pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-le
 div.sourceCode
   {   }
 @media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -134,15 +134,18 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ul class="summary">
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a></li>
 <li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
-<li class="chapter" data-level="2" data-path="fr-d-ric.html"><a href="fr-d-ric.html"><i class="fa fa-check"></i><b>2</b> Frédéric</a><ul>
-<li class="chapter" data-level="2.1" data-path="fr-d-ric.html"><a href="fr-d-ric.html#about-me"><i class="fa fa-check"></i><b>2.1</b> About Me</a></li>
-<li class="chapter" data-level="2.2" data-path="fr-d-ric.html"><a href="fr-d-ric.html#my-research"><i class="fa fa-check"></i><b>2.2</b> My Research</a></li>
+<li class="chapter" data-level="2" data-path="frédéric.html"><a href="frédéric.html"><i class="fa fa-check"></i><b>2</b> Frédéric</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="frédéric.html"><a href="frédéric.html#about-me"><i class="fa fa-check"></i><b>2.1</b> About Me</a></li>
+<li class="chapter" data-level="2.2" data-path="frédéric.html"><a href="frédéric.html#my-research"><i class="fa fa-check"></i><b>2.2</b> My Research</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="cl-ment.html"><a href="cl-ment.html"><i class="fa fa-check"></i><b>3</b> Clément</a><ul>
-<li class="chapter" data-level="3.1" data-path="cl-ment.html"><a href="cl-ment.html#about-me-1"><i class="fa fa-check"></i><b>3.1</b> About Me</a></li>
-<li class="chapter" data-level="3.2" data-path="cl-ment.html"><a href="cl-ment.html#my-research-1"><i class="fa fa-check"></i><b>3.2</b> My Research</a></li>
+<li class="chapter" data-level="3" data-path="clément.html"><a href="clément.html"><i class="fa fa-check"></i><b>3</b> Clément</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="clément.html"><a href="clément.html#about-me-1"><i class="fa fa-check"></i><b>3.1</b> About Me</a></li>
+<li class="chapter" data-level="3.2" data-path="clément.html"><a href="clément.html#my-research-1"><i class="fa fa-check"></i><b>3.2</b> My Research</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="michaela.html"><a href="michaela.html"><i class="fa fa-check"></i><b>4</b> Michaela</a><ul>
+<li class="chapter" data-level="4" data-path="michaela.html"><a href="michaela.html"><i class="fa fa-check"></i><b>4</b> Michaela</a>
+<ul>
 <li class="chapter" data-level="4.1" data-path="michaela.html"><a href="michaela.html#about-me-2"><i class="fa fa-check"></i><b>4.1</b> About Me</a></li>
 <li class="chapter" data-level="4.2" data-path="michaela.html"><a href="michaela.html#my-research-2"><i class="fa fa-check"></i><b>4.2</b> My Research</a></li>
 </ul></li>
@@ -163,15 +166,22 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="clément" class="section level1">
+<div id="clément" class="section level1" number="3">
 <h1><span class="header-section-number">3</span> Clément</h1>
-<div id="about-me-1" class="section level2">
+<div id="about-me-1" class="section level2" number="3.1">
 <h2><span class="header-section-number">3.1</span> About Me</h2>
-<p>Hello. I am Clément.</p>
+<p>Hello, I am Clément. I am a Doctoral researcher and Scientific Assistant at the Center of Economic Research (CER), ETH, since September 2018.</p>
 </div>
-<div id="my-research-1" class="section level2">
+<div id="my-research-1" class="section level2" number="3.2">
 <h2><span class="header-section-number">3.2</span> My Research</h2>
-<p>This is my Research.</p>
+<p>Part of my research focuses on the impact of tropical cyclones on the economy. We try to integrate advances from climate studies into the economic growth theory. Figure 1 is an old screenshot of my research. (I do not want to spoil too much of the final results!)</p>
+<div align="center">
+<img src="images/clement_old_plot.png">
+<div class="caption-half">
+Figure 1: Screenshot of my research
+</div>
+</div>
+<p>I also work on the implementation of interlinked (climate) shocks in economic models and mitigation policies. Finally, I also do work on economic inequalities related to carbon taxation.</p>
 
 </div>
 </div>
@@ -180,7 +190,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           </div>
         </div>
       </div>
-<a href="fr-d-ric.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="frédéric.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 <a href="michaela.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
