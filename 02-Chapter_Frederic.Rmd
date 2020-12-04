@@ -36,7 +36,7 @@ Forecasting models:\newline
 
 See how the Swiss total exports evolved over time:
 ```{r , echo = FALSE, fig.cap = 'Total Swiss export growth.',out.width='80%', fig.asp=.75, fig.align='center'}
-library(xlsx)
+# library(xlsx)
 # library(timeseriesdb)
 # library(kofvja)
 # if(!exists("pcon") || !dbIsValid(pcon)) {
@@ -53,7 +53,7 @@ library(xlsx)
 #     return(tslist[[1]])
 # }
 # data_y<- loading_vgr("extot1", pcon)
-exports <- read.xlsx("data/qna_e_csa.xls",sheetName="real_y", colIndex=c(1,27), startRow = 12, header=FALSE)
-colnames(exports) <- c("Year","Total Real Exports")
-plot(exports, type='b',pch=20, col="dark blue", main="Total Real Swiss exports (in mio CHF)")  # a scatterplot
+#exports <- read.xlsx("data/qna_e_csa.xls",sheetName="real_y", colIndex=c(1,27), startRow = 12, header=FALSE)
+#colnames(exports) <- c("Year","Total Real Exports")
+#plot(exports, type='b',pch=20, col="dark blue", main="Total Real Swiss exports (in mio CHF)")  # a scatterplot
 ```
