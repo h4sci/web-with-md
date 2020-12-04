@@ -1,6 +1,6 @@
 fig:nice-fig
 tab:nice-tab
-intro
+introduction
 frédéric
 about-me
 my-research
