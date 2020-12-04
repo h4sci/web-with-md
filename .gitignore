@@ -39,5 +39,5 @@ vignettes/*.pdf
 .Renviron
 
 #funny file
-.DS_Store
-*.swp
+#.DS_Store
+#*.swp
