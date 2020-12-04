@@ -3,13 +3,13 @@
 
 Hello! It's me Frédéric. I am a Zurich born and raised Master's student at the University of Zurich and a Research Assistant at the KOF Swiss Economic Institute. Apart from studying my passions are football 
 ```{r football, fig.cap='This was a save...not a goal',echo=FALSE, out.width='80%', fig.asp=.75, fig.align='center'}
-knitr::include_graphics("docs/_main_files/figure-html/goalie.jpeg")
+knitr::include_graphics("images/goalie.jpeg")
 ```
 
 and theatre sports.
 
 ```{r impro, fig.cap='Did I hear someone laughing?...',echo=FALSE, out.width='80%', fig.asp=.75, fig.align='center'}
-knitr::include_graphics("docs/_main_files/figure-html/improtheater.jpeg")
+knitr::include_graphics("images/improtheater.jpeg")
 ```
 
 ## My Research
