@@ -8,7 +8,7 @@ documentclass: book
 #bibliography: [book.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: rstudio/bookdown-demo
+github-repo: https://github.com/h4sci/web-with-md
 description: "This is an example of a bookdown book. The output format for this example is bookdown::gitbook."
 ---
 # Preface {-}
