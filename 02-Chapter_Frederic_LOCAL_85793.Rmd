@@ -1,0 +1,59 @@
+# Frédéric
+## About Me
+
+Hello! It's me Frédéric. I am a Zurich born and raised Master's student at the University of Zurich and a Research Assistant at the KOF Swiss Economic Institute. Apart from studying my passions are football 
+```{r football, fig.cap='This was a save...not a goal',echo=FALSE, out.width='80%', fig.asp=.75, fig.align='center'}
+knitr::include_graphics("images/goalie.jpeg")
+```
+
+and theatre sports.
+
+```{r impro, fig.cap='Did I hear someone laughing?...',echo=FALSE, out.width='80%', fig.asp=.75, fig.align='center'}
+knitr::include_graphics("images/improtheater.jpeg")
+```
+
+## My Research
+
+My first and latest research project is about short-term forecasting of quarterly Swiss exports with monthly indicators:
+
+When the aim is to forecast quarterly overall Swiss exports, does forecast accuracy improve when forecasting different subcomponents of quarterly Swiss exports separately and aggregating afterwards (disaggregate approach) instead of targeting overall quarterly Swiss exports directly (aggregate approach)?  
+
+* Aggregate approach: Forecast quarterly Swiss exports (as published by the Swiss State Secretariat for Economic Affairs SECO) directly.
+* Disaggregate approach 1: Forecast quarterly Swiss goods exports and quarterly Swiss services exports (both as published by the SECO) separately and aggregate the two forecasts afterwards.
+* Disaggregate approach 2: Forecast the following exports subcategories separately and aggregate them afterwards:
+  + Quarterly Swiss pharmaceutical and chemical goods exports (as constructed following SECO)
+  + Quarterly Swiss machinery and electronics goods exports (as constructed following SECO)
+  + Quarterly Swiss watches, precision instruments and bijouterie goods exports (as constructed following SECO)
+  + Quarterly Swiss miscellaneous goods exports (as constructed following SECO) 
+  + Quarterly Swiss services exports (as published by SECO)
+
+Forecasting models:\newline
+
+*	Unrestricted mixed data sampling (U-MIDAS) following Foroni et al. (2015) in combination with forecast pooling following Timmermann (2006)
+*	Mixed-frequency dynamic factor model (MF-DFM) following Giannone et al. (2008) and Banbura et al. (2011) based on the R-package of de Valk et al. (2019)
+*	Optional: Factor MIDAS following Marcellino and Schumacher (2010)  
+*	Benchmark forecasting models: Rolling in-sample mean, AR model
+
+See how the Swiss total exports evolved over time:
+```{r , echo = FALSE, fig.cap = 'Total Swiss export growth.',out.width='80%', fig.asp=.75, fig.align='center'}
+# library(xlsx)
+# library(timeseriesdb)
+# library(kofvja)
+# if(!exists("pcon") || !dbIsValid(pcon)) {
+#   pcon <- createConObj(dbname = "kofdb",
+#                        dbhost = "archivedb.kof.ethz.ch",
+#                        passwd = .rs.askForPassword("Enter DB Password"))
+#   }
+# aggregates <- get_aggregates()
+# 
+# countries <- unique(c(aggregates$oecd,aggregates$eu,"cn"))
+# 
+# loading_vgr <- function(sector,connection){
+#     tslist <- db_ts_read(con = connection,ts_keys=paste0("ch.kof.vja.kmm.",sector), schema = "vja")
+#     return(tslist[[1]])
+# }
+# data_y<- loading_vgr("extot1", pcon)
+#exports <- read.xlsx("data/qna_e_csa.xls",sheetName="real_y", colIndex=c(1,27), startRow = 12, header=FALSE)
+#colnames(exports) <- c("Year","Total Real Exports")
+#plot(exports, type='b',pch=20, col="dark blue", main="Total Real Swiss exports (in mio CHF)")  # a scatterplot
+```
