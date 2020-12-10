@@ -1,8 +1,12 @@
 # Michaela
 
 ## About Me
-Hello. I am Michaela.
+Hello, I am Michaela. I am a Doctoral student and Researcher at the Mobiliar Lab for Analytics at the MTEC.  
+
+```{r impro, fig.cap='This is me and an icy pac-man',echo=FALSE, out.width='80%', fig.asp=.75, fig.align='center'}
+knitr::include_graphics("images/pacman.jpg")
+```
 
 ## My Research
 
-This is my Research. 
+My research broadly focuses on trust in human-computer interactions. Specifically, I am interested in interpretability techniques for machine learning and their impact on user trust and decision making. The increasing ubiquity of machine learning applications in multiple sectors of society has led to a surge of interest in the development of systems that can explain their behaviour, yet many questions, such as “How do we evaluate human trust in machine learning models?” and “In what situations do interpretability tools aid/obstruct human decision-making?” remain unanswered. I believe that answering these questions requires an interdisciplinary approach, hence I build my work on methods of and prior research in the fields of Psychology, Cognitive Science, Natural Language Processing, and Computer Science. My aim is to gain a rigorous understanding of the vulnerabilities of machine learning interpretability techniques, using a human-centered approach.
