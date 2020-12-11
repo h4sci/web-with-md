@@ -8,7 +8,7 @@ knitr::include_graphics("images/goalie.jpeg")
 
 and theatre sports.
 
-```{r impro, fig.cap='Did I hear someone laughing?...',echo=FALSE, out.width='80%', fig.asp=.75, fig.align='center'}
+```{r theatresports, fig.cap='Did I hear someone laughing?...',echo=FALSE, out.width='80%', fig.asp=.75, fig.align='center'}
 knitr::include_graphics("images/improtheater.jpeg")
 ```
 
@@ -53,7 +53,10 @@ See how the Swiss total exports evolved over time:
 #     return(tslist[[1]])
 # }
 # data_y<- loading_vgr("extot1", pcon)
-#exports <- read.xlsx("data/qna_e_csa.xls",sheetName="real_y", colIndex=c(1,27), startRow = 12, header=FALSE)
-#colnames(exports) <- c("Year","Total Real Exports")
-#plot(exports, type='b',pch=20, col="dark blue", main="Total Real Swiss exports (in mio CHF)")  # a scatterplot
+# exports <- read.xlsx("data/qna_e_csa.xls",sheetName="real_y", colIndex=c(1,27), startRow = 12, header=FALSE)
+data <- read.csv("data/exports.csv", sep= ";", header=FALSE)
+exports <- data[,c(1,27)]
+#exports <- read_excel("data/qna_e_csa.xls",sheet="real_y", col_names=FALSE)
+colnames(exports) <- c("Year","Total Real Exports")
+plot(exports, type='b',pch=20, col="dark blue", main="Total Real Swiss exports (in mio CHF)")  # a scatterplot
 ```

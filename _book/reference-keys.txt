@@ -1,5 +1,6 @@
 fig:nice-fig
 tab:nice-tab
+fig:impro
 introduction
 frédéric
 about-me
@@ -10,5 +11,3 @@ my-research-1
 michaela
 about-me-2
 my-research-2
-fig:football
-fig:impro
