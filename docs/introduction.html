@@ -24,7 +24,7 @@
 <meta name="author" content="MB, FP, CR" />
 
 
-<meta name="date" content="2020-12-04" />
+<meta name="date" content="2020-12-11" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,7 +33,6 @@
   
 <link rel="prev" href="index.html"/>
 <link rel="next" href="frédéric.html"/>
-<script src="libs/header-attrs-2.5/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -51,32 +50,30 @@
 
 
 
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <link href="libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.0/anchor-sections.js"></script>
 
 
 <style type="text/css">
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
 }
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
+    border: none; pointer-events: all; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -85,9 +82,9 @@ pre.numberSource code > span > a:first-child::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {   }
+  {  }
 @media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+a.sourceLine::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -134,18 +131,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ul class="summary">
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a></li>
 <li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
-<li class="chapter" data-level="2" data-path="frédéric.html"><a href="frédéric.html"><i class="fa fa-check"></i><b>2</b> Frédéric</a>
-<ul>
+<li class="chapter" data-level="2" data-path="frédéric.html"><a href="frédéric.html"><i class="fa fa-check"></i><b>2</b> Frédéric</a><ul>
 <li class="chapter" data-level="2.1" data-path="frédéric.html"><a href="frédéric.html#about-me"><i class="fa fa-check"></i><b>2.1</b> About Me</a></li>
 <li class="chapter" data-level="2.2" data-path="frédéric.html"><a href="frédéric.html#my-research"><i class="fa fa-check"></i><b>2.2</b> My Research</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="clément.html"><a href="clément.html"><i class="fa fa-check"></i><b>3</b> Clément</a>
-<ul>
+<li class="chapter" data-level="3" data-path="clément.html"><a href="clément.html"><i class="fa fa-check"></i><b>3</b> Clément</a><ul>
 <li class="chapter" data-level="3.1" data-path="clément.html"><a href="clément.html#about-me-1"><i class="fa fa-check"></i><b>3.1</b> About Me</a></li>
 <li class="chapter" data-level="3.2" data-path="clément.html"><a href="clément.html#my-research-1"><i class="fa fa-check"></i><b>3.2</b> My Research</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="michaela.html"><a href="michaela.html"><i class="fa fa-check"></i><b>4</b> Michaela</a>
-<ul>
+<li class="chapter" data-level="4" data-path="michaela.html"><a href="michaela.html"><i class="fa fa-check"></i><b>4</b> Michaela</a><ul>
 <li class="chapter" data-level="4.1" data-path="michaela.html"><a href="michaela.html#about-me-2"><i class="fa fa-check"></i><b>4.1</b> About Me</a></li>
 <li class="chapter" data-level="4.2" data-path="michaela.html"><a href="michaela.html#my-research-2"><i class="fa fa-check"></i><b>4.2</b> My Research</a></li>
 </ul></li>
@@ -166,12 +160,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="introduction" class="section level1" number="1">
+<div id="introduction" class="section level1">
 <h1><span class="header-section-number">1</span> Introduction</h1>
 <p>You can label chapter and section titles, e.g. Chapter <a href="introduction.html#introduction">1</a>.</p>
 <p>Figures and tables with captions will be placed in <code>figure</code> and <code>table</code> environments, respectively.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="introduction.html#cb1-1"></a><span class="kw">par</span>(<span class="dt">mar =</span> <span class="kw">c</span>(<span class="dv">4</span>, <span class="dv">4</span>, <span class="fl">.1</span>, <span class="fl">.1</span>))</span>
-<span id="cb1-2"><a href="introduction.html#cb1-2"></a><span class="kw">plot</span>(pressure, <span class="dt">type =</span> <span class="st">&#39;b&#39;</span>, <span class="dt">pch =</span> <span class="dv">19</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="kw">par</span>(<span class="dt">mar =</span> <span class="kw">c</span>(<span class="dv">4</span>, <span class="dv">4</span>, <span class="fl">.1</span>, <span class="fl">.1</span>))</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2"><span class="kw">plot</span>(pressure, <span class="dt">type =</span> <span class="st">&#39;b&#39;</span>, <span class="dt">pch =</span> <span class="dv">19</span>)</a></code></pre></div>
 <div class="figure" style="text-align: center"><span id="fig:nice-fig"></span>
 <img src="_main_files/figure-html/nice-fig-1.png" alt="Here is a nice figure!" width="80%" />
 <p class="caption">
@@ -179,10 +173,10 @@ Figure 1.1: Here is a nice figure!
 </p>
 </div>
 <p>Reference a figure by its code chunk label with the <code>fig:</code> prefix, e.g., see Figure <a href="introduction.html#fig:nice-fig">1.1</a>. Similarly, you can reference tables generated from <code>knitr::kable()</code>, e.g., see Table <a href="introduction.html#tab:nice-tab">1.1</a>.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="introduction.html#cb2-1"></a>knitr<span class="op">::</span><span class="kw">kable</span>(</span>
-<span id="cb2-2"><a href="introduction.html#cb2-2"></a>  <span class="kw">head</span>(iris, <span class="dv">20</span>), <span class="dt">caption =</span> <span class="st">&#39;Here is a nice table!&#39;</span>,</span>
-<span id="cb2-3"><a href="introduction.html#cb2-3"></a>  <span class="dt">booktabs =</span> <span class="ot">TRUE</span></span>
-<span id="cb2-4"><a href="introduction.html#cb2-4"></a>)</span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" data-line-number="1">knitr<span class="op">::</span><span class="kw">kable</span>(</a>
+<a class="sourceLine" id="cb2-2" data-line-number="2">  <span class="kw">head</span>(iris, <span class="dv">20</span>), <span class="dt">caption =</span> <span class="st">&#39;Here is a nice table!&#39;</span>,</a>
+<a class="sourceLine" id="cb2-3" data-line-number="3">  <span class="dt">booktabs =</span> <span class="ot">TRUE</span></a>
+<a class="sourceLine" id="cb2-4" data-line-number="4">)</a></code></pre></div>
 <table>
 <caption><span id="tab:nice-tab">Table 1.1: </span>Here is a nice table!</caption>
 <thead>
