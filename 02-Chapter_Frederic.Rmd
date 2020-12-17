@@ -38,6 +38,8 @@ See how the Swiss total exports evolved over time:
 ```{r , echo = FALSE, fig.cap = 'Total Swiss export growth.',out.width='80%', fig.asp=.75, fig.align='center'}
 data <- read.csv("data/exports.csv", sep= ";", header=FALSE)
 exports <- data[,c(1,27)]
+exports$V1 <- as.numeric(exports$V1)
+exports$V27 <- as.numeric(exports$V27)
 colnames(exports) <- c("Year","Total Real Exports")
 plot(exports, type='b',pch=20, col="dark blue", main="Total Real Swiss exports (in mio CHF)")  # a scatterplot
 ```
