@@ -41,3 +41,4 @@ vignettes/*.pdf
 #funny file
 #.DS_Store
 #*.swp
+.Rproj.user

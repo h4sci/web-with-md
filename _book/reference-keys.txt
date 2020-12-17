@@ -1,5 +1,6 @@
-fig:nice-fig
-tab:nice-tab
+fig:football
+fig:theatresports
+fig:unnamed-chunk-1
 fig:impro
 introduction
 frédéric

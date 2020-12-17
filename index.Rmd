@@ -1,5 +1,5 @@
 --- 
-title: "Welcome to our book! We would like to introduce you to our research."
+title: "Welcome to our book!"
 author: "MB, FP, CR"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -11,6 +11,7 @@ link-citations: yes
 github-repo: https://github.com/h4sci/web-with-md
 description: "This is an example of a bookdown book. The output format for this example is bookdown::gitbook."
 ---
+
 # Preface {-}
 
-In this book, we will introduce our interesting research.
+We introduce you to our research.
